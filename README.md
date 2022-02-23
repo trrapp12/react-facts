@@ -1,5 +1,5 @@
 
-# Static page using Create React App
+# REACT FACTS
 
 
 ##### Contributors: Trevor Rapp, Bob Ziroll
@@ -8,7 +8,7 @@
 
 <br>
 
-[![View Project](https://user-images.githubusercontent.com/11747875/141705232-471a0b9c-ca45-4540-a1b6-740c5e1becbe.png)](https://trrapp12.github.io/my-app/)
+[![View Project](https://user-images.githubusercontent.com/11747875/141705232-471a0b9c-ca45-4540-a1b6-740c5e1becbe.png)](https://trrapp12.github.io/react-facts/)
 
 <br>
 
@@ -49,7 +49,7 @@ A basic static page built using React.
 ### Project published at: 
 ---
 
-[my-app](https://trrapp12.github.io/my-app/)
+[REACT FACTS](https://trrapp12.github.io/react-facts/)
 
 ### More Information:
 ---

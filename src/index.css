@@ -1,0 +1,45 @@
+html {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+root {
+  max-width: 550px;
+  margin: auto;
+}
+
+body {
+
+}
+
+.main-container {
+  margin: 0;
+  padding: 0;
+  background-color:#282D35;
+  font-family: 'Inter', sans-serif;
+  max-width: 550px;
+}
+
+nav {
+  height: 90px; 
+  background-color: #21222A;
+}
+
+ul > li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+
+}
+
+ul {
+  line-height: 20px;
+}
+
+nav > h3 {
+  font-size: 22px;
+}
+
+::marker {
+  color: #61DAFB;
+}

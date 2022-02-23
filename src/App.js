@@ -1,8 +1,13 @@
 import React from "react"
+import Nav from "./Nav"
+import Body from "./Body"
 
 function App () {
   return (
-    <h1>Welcome to My World</h1>
+    <div className="main-container">
+      <Nav />
+      <Body />
+    </div>
   )
 }
 

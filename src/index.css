@@ -5,7 +5,6 @@ html {
 
 root {
   max-width: 550px;
-  margin: auto;
 }
 
 body {
@@ -13,7 +12,9 @@ body {
 }
 
 .main-container {
-  margin: 0;
+  display: flex;
+  height: 550px;
+  margin: auto;
   padding: 0;
   background-color:#282D35;
   font-family: 'Inter', sans-serif;

@@ -1,5 +1,6 @@
 import React from 'react'
 import largeLogo from "../images/large_group.svg"
+import Button from './Button'
 
 function Body () {
   return (
@@ -13,6 +14,7 @@ function Body () {
         <li className="body--list-items">Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
       <img className="large-logo" src={largeLogo} alt="subdued react logo on background"></img>
+      <Button/>
     </div>
   )
 }

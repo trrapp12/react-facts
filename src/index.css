@@ -1,5 +1,9 @@
 /* normalizes container */
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   min-height: 100vh;
   min-width: 100vw;
@@ -12,7 +16,7 @@ root {
 .clicked {
   min-width: max-content;
   border-radius: 25px;
-  border: 5px solid white;
+  border: 1px solid white;
   min-height: max-content;
   background-color: #282D35;
   display: flex;
@@ -23,7 +27,7 @@ root {
 .not-clicked {
   min-width: max-content;
   border-radius: 25px;
-  border: 5px solid white;
+  border: 1px solid white;
   min-height: max-content;
   background-color: #282D35;
   display: flex;
@@ -34,13 +38,24 @@ root {
 /* additional classes */
 .body--container {
   margin: 57px 0 0 27px;
-  height: 100%;
 }
 
 .body--list-items {
   font-size: 16px;
   font-weight: 400;
   color: #FFFFFF;
+}
+
+.font-light {
+  color: #272D35;
+}
+
+.background-light {
+  background-color: white;
+}
+
+.background-dark {
+  background-color: #282D35;
 }
 
 .body--list-items::marker {
@@ -52,6 +67,10 @@ root {
 
 .body--title {
   color: white;
+}
+
+.border--light {
+  border: 1px solid #282D35;
 }
 
 .circle {
@@ -90,7 +109,6 @@ img {
   height: 550px;
   margin: auto;
   padding: 0;
-  background-color: #282D35;
   font-family: 'Inter', sans-serif;
   max-width: 550px;
 }

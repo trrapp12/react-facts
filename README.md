@@ -37,6 +37,7 @@ A basic static page built using React.
 ### Project v1.0 demonstrates the following:
 ---
 
+- [x] Use of State and Props
 - [x] Use of JSX
 - [x] Use of basic syntax and architecture of React
 - [x] Use of parent > child components

@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/11747875/217636593-e8000a05-e8d6-4f0b-
 
 <br>
 
-[![View Project](https://user-images.githubusercontent.com/11747875/141705232-471a0b9c-ca45-4540-a1b6-740c5e1becbe.png)](https://trrapp12.github.io/react-facts/)
+[![View Project](https://user-images.githubusercontent.com/11747875/141705232-471a0b9c-ca45-4540-a1b6-740c5e1becbe.png)](https://sensational-palmier-06cfc0.netlify.app/)
 
 <br>
 

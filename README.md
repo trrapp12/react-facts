@@ -5,6 +5,8 @@ https://user-images.githubusercontent.com/11747875/217636593-e8000a05-e8d6-4f0b-
 
 ##### Contributors: Trevor Rapp, Bob Ziroll
 
+*project completed as part of Scrimba's Front End Developer Career course*
+
 ---
 
 <br>
@@ -29,13 +31,16 @@ https://user-images.githubusercontent.com/11747875/217636593-e8000a05-e8d6-4f0b-
 
 ### Description:
 
-
----
+> "You can't choose how other people act.  You can only choose how you ReactJS"
+>
+> -- Trevor Rapp
 
 A basic static page built using React. 
 
-### Project v1.0 demonstrates the following:
 ---
+
+### PROJECT DEMONSTRATES:
+
 
 - [x] Use of State and Props
 - [x] Use of JSX
@@ -48,15 +53,53 @@ A basic static page built using React.
 - [x] Use of import and export statements
 - [x] Use of local server with webpack
 
-### Project published at: 
 ---
 
-[REACT FACTS](https://trrapp12.github.io/react-facts/)
+### CHALLENGES I OVERCAME:
 
-### More Information:
+* This was my first time in quite a while connecting to a Firebase database.  I had to reacquaint myself with it.  The process wasn't necessarily very hard, but it was probably the area I experienced the most growth as I had little exprience in it before.
+
+```javascript  
+
+function createList (el, value, id) {
+    let newDiv = document.createElement('div');
+
+    let newCheckBox = document.createElement('input')
+    newCheckBox.setAttribute('type', 'checkbox')
+    newCheckBox.setAttribute('id', `${id}`)
+
+    let newItemListItem = document.createElement('li');
+    let itemText = value
+    newItemListItem.textContent = itemText;
+
+    newDiv.append(newCheckBox)
+    newDiv.classList.add('list-div')
+    newDiv.append(newItemListItem)
+    el.append(newDiv)
+
+    newCheckBox.addEventListener('click', (event) => {
+        if(event.currentTarget.checked) {
+            console.log('checked', event.currentTarget)
+            let refLocationDB = ref(database, `items/${id}`);
+            remove(refLocationDB)
+        } else {
+            console.log('item is not checked')
+        }
+    })
+}
+    
+
+```
+
+### ATTRIBUTIONS
+
+No additional attribution needed at this time.
+
 ---
 
-\**For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037) or return to my [Github](https://github.com/trrapp12)*
+### YOU CAN FIND ME AT:
+
+\**For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037), or return to my [Github](https://github.com/trrapp12)*
 
 *This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
 

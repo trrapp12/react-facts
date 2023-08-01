@@ -57,37 +57,37 @@ A basic static page built using React.
 
 ### CHALLENGES I OVERCAME:
 
-* This was my first time in quite a while connecting to a Firebase database.  I had to reacquaint myself with it.  The process wasn't necessarily very hard, but it was probably the area I experienced the most growth as I had little exprience in it before.
+* The original scope of the project did not include a light/dark mode.  I took on the extra challenge to help me learn how to better use state in a real-world issue I might face.  To solve that I had to keep state in the parent app and pass it to the nav component and the main component.  I then use ternary operators and props to create elements that would change with state
 
 ```javascript  
 
-function createList (el, value, id) {
-    let newDiv = document.createElement('div');
+import React from 'react'
+import largeLogo from "../images/large_group.svg"
 
-    let newCheckBox = document.createElement('input')
-    newCheckBox.setAttribute('type', 'checkbox')
-    newCheckBox.setAttribute('id', `${id}`)
+function Body (props) {
 
-    let newItemListItem = document.createElement('li');
-    let itemText = value
-    newItemListItem.textContent = itemText;
+  console.log(props.isDark)
 
-    newDiv.append(newCheckBox)
-    newDiv.classList.add('list-div')
-    newDiv.append(newItemListItem)
-    el.append(newDiv)
-
-    newCheckBox.addEventListener('click', (event) => {
-        if(event.currentTarget.checked) {
-            console.log('checked', event.currentTarget)
-            let refLocationDB = ref(database, `items/${id}`);
-            remove(refLocationDB)
-        } else {
-            console.log('item is not checked')
-        }
-    })
+  return (
+    <div className={props.isDark ? "body--container" : "body--container background-light"}>
+      <h1 className={props.isDark ? "body--title condensed-letter-spacing" : "condensed-letter-spacing font-light"}>Fun Facts about React</h1>
+      <ul>
+        <li className={props.isDark ? "body--list-items" : "body--list-items font-light"}>Was first released in 2013</li>
+        <li className={props.isDark ? "body--list-items" : "body--list-items font-light"}>Was originally created by Jordan Walke</li>
+        <li className={props.isDark ? "body--list-items" : "body--list-items font-light"}>Has well over 100K stars on Github</li>
+        <li className={props.isDark ? "body--list-items" : "body--list-items font-light"}>Is maintained by Facebook</li>
+        <li className={props.isDark ? "body--list-items" : "body--list-items font-light"}>Powers thousands of enterprise apps, including mobile apps</li>
+      </ul>
+      <img className="large-logo" src={largeLogo} alt="subdued react logo on background"></img>
+      <button onClick={() => props.toggle()} id='circle' className={props.isDark ? 'clicked' : 'not-clicked'}>
+            <div id="circle" className="circle"></div>
+            <div className="empty"></div>
+        </button>
+    </div>
+  )
 }
-    
+
+export default Body
 
 ```
 

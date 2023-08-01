@@ -33,7 +33,7 @@ https://user-images.githubusercontent.com/11747875/217636593-e8000a05-e8d6-4f0b-
 
 > "You can't choose how other people act.  You can only choose how you ReactJS"
 >
-> -- Trevor Rapp
+> -- Trevor Rapp, aspiring React developer and undercover Dad Joke Operator
 
 A basic static page built using React. 
 

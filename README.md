@@ -5,7 +5,7 @@
 
 ##### Contributors: Trevor Rapp, Bob Ziroll
 
-*project completed as an instructor lead tutorial in Scrimba's [Front End Developer Career course](https://scrimba.com/learn/frontend)*
+*project completed as an instructor lead tutorial in Scrimba's [Front End Developer Career course](https://scrimba.com/learn/frontend).*
 
 <br/>
 

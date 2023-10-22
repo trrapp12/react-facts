@@ -1,6 +1,8 @@
 
 # REACT FACTS
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3d4959b9-5f7c-42c4-885c-1ff5dcd2d8b9/deploy-status)](https://app.netlify.com/sites/sensational-palmier-06cfc0/deploys)
+
 ---
 
 ##### Contributors: Trevor Rapp, Bob Ziroll

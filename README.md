@@ -43,6 +43,16 @@ https://user-images.githubusercontent.com/11747875/217636593-e8000a05-e8d6-4f0b-
 
 *A basic static page built using React.*
 
+<br/>
+
+---
+
+### QUICKSTART GUIDE
+
+To use the app simply click on the ```View Project``` button or visit <a href="https://trrapp12.github.io/groovy-blocks/">https://trrapp12.github.io/groovy-blocks/</a>. 
+
+<br/>
+
 ---
 
 ### PROJECT DEMONSTRATES:

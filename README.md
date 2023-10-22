@@ -125,6 +125,8 @@ export default Body
 
 Course developed and lead by Bob Ziroll as part of Scrimba's [Front End Developer Career course](https://scrimba.com/learn/frontend).
 
+<br/>
+
 ---
 
 ### YOU CAN FIND ME AT:

@@ -115,9 +115,11 @@ export default Body
 
 ### MY OWN PERSONAL CONTRIBUTIONS INCLUDED
 
-- [X] light/dark mode.
+- [X] light / dark mode.
 
 <br/>
+
+---
 
 ### ATTRIBUTIONS
 

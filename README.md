@@ -123,9 +123,9 @@ export default Body
 
 ### ATTRIBUTIONS
 
-Course developed and lead by Bob Ziroll as part of Scrimba's [Front End Developer Career course](https://scrimba.com/learn/frontend).
+* Course developed and lead by Bob Ziroll as part of Scrimba's [Front End Developer Career course](https://scrimba.com/learn/frontend).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 <br/>
 

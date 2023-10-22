@@ -125,6 +125,8 @@ export default Body
 
 Course developed and lead by Bob Ziroll as part of Scrimba's [Front End Developer Career course](https://scrimba.com/learn/frontend).
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 <br/>
 
 ---
@@ -133,6 +135,6 @@ Course developed and lead by Bob Ziroll as part of Scrimba's [Front End Develope
 
 \**For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037), or return to my [Github](https://github.com/trrapp12)*
 
-*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
+
 
 

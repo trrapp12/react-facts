@@ -1,19 +1,22 @@
 
 # REACT FACTS
 
-https://user-images.githubusercontent.com/11747875/217636593-e8000a05-e8d6-4f0b-8e47-d0c32c6ba226.mp4
+---
 
 ##### Contributors: Trevor Rapp, Bob Ziroll
 
 *project completed as part of Scrimba's Front End Developer Career course*
 
----
-
-<br>
+<br/>
 
 [![View Project](https://user-images.githubusercontent.com/11747875/141705232-471a0b9c-ca45-4540-a1b6-740c5e1becbe.png)](https://sensational-palmier-06cfc0.netlify.app/)
 
 <br>
+
+
+https://user-images.githubusercontent.com/11747875/217636593-e8000a05-e8d6-4f0b-8e47-d0c32c6ba226.mp4
+
+<br/>
 
 ---
 
@@ -25,33 +28,38 @@ https://user-images.githubusercontent.com/11747875/217636593-e8000a05-e8d6-4f0b-
 <img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 
 <br>
-<br>
 
 ---
 
-### Description:
+### DESCRIPTION:
 
-> "You can't choose how other people act.  You can only choose how you ReactJS"
+<br/>
+
+> "You can't control other people's actions.  You can only choose how you ReactJS"
 >
 > -- Trevor Rapp, aspiring React developer and undercover Dad Joke Operator
 
-A basic static page built using React. 
+<br/>
+
+*A basic static page built using React.*
 
 ---
 
 ### PROJECT DEMONSTRATES:
 
 
-- [x] Use of State and Props
-- [x] Use of JSX
-- [x] Use of basic syntax and architecture of React
-- [x] Use of parent > child components
-- [x] Use of custom composable, reusable components
-- [x] Use of Bable and Webpack through Create React App
-- [x] Use of git CLI and GitHub repositories
-- [x] Use of CSS and images in React environment
-- [x] Use of import and export statements
-- [x] Use of local server with webpack
+- [X] Use of State and Props
+- [X] Use of JSX
+- [X] Use of basic syntax and architecture of React
+- [X] Use of parent > child components
+- [X] Use of custom composable, reusable components
+- [X] Use of Bable and Webpack through Create React App
+- [X] Use of git CLI and GitHub repositories
+- [X] Use of CSS and images in React environment
+- [X] Use of import and export statements
+- [X] Use of local server with webpack
+
+<br/>
 
 ---
 

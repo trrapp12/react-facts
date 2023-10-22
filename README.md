@@ -109,9 +109,19 @@ export default Body
 
 ```
 
+<br/>
+
+---
+
+### MY OWN PERSONAL CONTRIBUTIONS INCLUDED
+
+- [X] light/dark mode.
+
+<br/>
+
 ### ATTRIBUTIONS
 
-No additional attribution needed at this time.
+Course developed and lead by Bob Ziroll as part of Scrimba's [Front End Developer Career course](https://scrimba.com/learn/frontend).
 
 ---
 
